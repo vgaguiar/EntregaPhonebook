@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj": {}
+  },
+  "projects": {
+    "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj",
+        "projectName": "Library",
+        "projectPath": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj",
+        "packagesPath": "/Users/valentinagonzalez/.nuget/packages/",
+        "outputPath": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/valentinagonzalez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.17.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
