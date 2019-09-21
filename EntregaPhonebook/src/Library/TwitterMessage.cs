@@ -4,9 +4,9 @@ namespace Library
 {
     public class twitterMessage : Message
     {
-        public twitterMessage(string from, string to, string text) : base (from, to, text)
+        public twitterMessage(string from, string to) 
+        : base (from, to)
         {
-            this.From = "UCU";
         }
     }
 }

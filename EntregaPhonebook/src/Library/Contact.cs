@@ -2,15 +2,13 @@
 {
     public class Contact
     {
-        public Contact(string name, string phone,  string id)
+        public Contact(string name)
         {
             this.Name = name;
-            this.Phone = phone;
-            this.Id = id;
         }
 
         public string Name { get; set; }
         public string Phone { get; set; }
-        public string Id { get; set; }
+        public string Twitter { get; set; }
     }
 }

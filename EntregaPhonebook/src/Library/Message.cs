@@ -2,11 +2,10 @@ namespace Library
 {
     public abstract class Message
     {
-        protected Message(string from, string to, string text)
+        protected Message(string from, string to)
         {
             this.From = from;
             this.To = to;
-            this.Text = text;
         }
 
         public string Text { get; set; }

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Linq;
 
-namespace Library
+namespace TwitterUCU
 {
 	/// <summary>
 	/// Credit to Danny Tuppeny: https://blog.dantup.com/2016/07/simplest-csharp-code-to-post-a-tweet-using-oauth/

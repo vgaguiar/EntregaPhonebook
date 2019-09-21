@@ -1138,13 +1138,41 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Twilio": "5.17.0"
+          "Twilio": "5.17.0",
+          "TwitterApi": "1.0.0",
+          "WhatsappApiUCU": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Library.dll": {}
         },
         "runtime": {
           "bin/placeholder/Library.dll": {}
+        }
+      },
+      "TwitterApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/TwitterApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TwitterApi.dll": {}
+        }
+      },
+      "WhatsappApiUCU/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Twilio": "5.17.0"
+        },
+        "compile": {
+          "bin/placeholder/WhatsappApiUCU.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WhatsappApiUCU.dll": {}
         }
       }
     }
@@ -4114,6 +4142,16 @@
       "type": "project",
       "path": "../Library/Library.csproj",
       "msbuildProject": "../Library/Library.csproj"
+    },
+    "TwitterApi/1.0.0": {
+      "type": "project",
+      "path": "../PII_TwitterApi-master/src/Library/Library.csproj",
+      "msbuildProject": "../PII_TwitterApi-master/src/Library/Library.csproj"
+    },
+    "WhatsappApiUCU/1.0.0": {
+      "type": "project",
+      "path": "../PII_WhatsAppApiUCU-master/src/Library/Library.csproj",
+      "msbuildProject": "../PII_WhatsAppApiUCU-master/src/Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4123,23 +4161,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/valentinagonzalez/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\FIT\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Program/Program.csproj",
+      "projectUniqueName": "C:\\Users\\FIT\\Documents\\UCU\\P2\\EntregaPhonebook\\EntregaPhonebook\\src\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Program/Program.csproj",
-      "packagesPath": "/Users/valentinagonzalez/.nuget/packages/",
-      "outputPath": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Program/obj/",
+      "projectPath": "C:\\Users\\FIT\\Documents\\UCU\\P2\\EntregaPhonebook\\EntregaPhonebook\\src\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\FIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FIT\\Documents\\UCU\\P2\\EntregaPhonebook\\EntregaPhonebook\\src\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/valentinagonzalez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\FIT\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -4150,8 +4188,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj": {
-              "projectPath": "/Users/valentinagonzalez/Desktop/Phonebook-master/src/Library/Library.csproj"
+            "C:\\Users\\FIT\\Documents\\UCU\\P2\\EntregaPhonebook\\EntregaPhonebook\\src\\Library\\Library.csproj": {
+              "projectPath": "C:\\Users\\FIT\\Documents\\UCU\\P2\\EntregaPhonebook\\EntregaPhonebook\\src\\Library\\Library.csproj"
             }
           }
         }

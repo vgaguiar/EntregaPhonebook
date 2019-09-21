@@ -9,7 +9,9 @@
       "Library/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Twilio": "5.17.0"
+          "Twilio": "5.17.0",
+          "TwitterApi": "1.0.0",
+          "WhatsappApiUCU": "1.0.0"
         },
         "runtime": {
           "Library.dll": {}
@@ -632,6 +634,22 @@
             "fileVersion": "5.17.0.0"
           }
         }
+      },
+      "TwitterApi/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "TwitterApi.dll": {}
+        }
+      },
+      "WhatsappApiUCU/1.0.0": {
+        "dependencies": {
+          "Twilio": "5.17.0"
+        },
+        "runtime": {
+          "WhatsappApiUCU.dll": {}
+        }
       }
     }
   },
@@ -1060,6 +1078,16 @@
       "sha512": "sha512-6k+IOFV4hWAG9wTsDu6SQe70W6CWkjn4M7pGdkSx0yff88f1mjf2/UZONQUHA0Pj1kMCz0TSTJZZNREoZCAYQg==",
       "path": "twilio/5.17.0",
       "hashPath": "twilio.5.17.0.nupkg.sha512"
+    },
+    "TwitterApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WhatsappApiUCU/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

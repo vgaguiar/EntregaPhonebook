@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
 
-namespace Library
+namespace TwitterUCU
 {
     public class TwitterMessage : TwitterApi
     {
