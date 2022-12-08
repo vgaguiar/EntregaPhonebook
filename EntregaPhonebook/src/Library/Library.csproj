@@ -7,7 +7,7 @@
     <ProjectReference Include="..\PII_WhatsAppApiUCU-master\src\Library\Library.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Twilio" Version="5.17.0" />
   </ItemGroup>
 </Project>
